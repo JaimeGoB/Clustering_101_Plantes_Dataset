@@ -84,6 +84,7 @@ table(clusters_hierarchical)
 
 #viewing a dendgogram divided into 3 clusters
 rect.hclust(hc.complete, k = 3, border = 2:5)
+
 #Observations are represented by points in the plot,
 #using principal components if ncol(data) > 2. 
 #An ellipse is drawn around each cluster.
