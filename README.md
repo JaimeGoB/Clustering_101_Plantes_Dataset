@@ -37,7 +37,31 @@ clusters_hierarchical
 
 #### Visualizing 3 Different Clusters
 
+Using first two principle components we can see the plot for first and second principle components.
+
 <img src="https://github.com/JaimeGoB/Clustering_101_Plantes_Dataset/blob/main/data/hplot.png" length = 1000 width="600"/>
 
+#### Pair wise plots with Clusters
+
+<img src="https://github.com/JaimeGoB/Clustering_101_Plantes_Dataset/blob/main/data/hplots.png" length = 1000 width="600"/>
+
+
+# K-Means Clustering
+
+#### Observations in 3 Different Clusters
+clusters_hierarchical
+| 1 | 2 | 3|
+--- | ---| ---|
+24 | 68 | 9
+
+#### Visualizing 3 Different Clusters
+
+Using first two principle components we can see the plot for first and second principle components.
+
+<img src="https://github.com/JaimeGoB/Clustering_101_Plantes_Dataset/blob/main/data/kplot.png" length = 1000 width="600"/>
+
+#### Pair wise plots with Clusters
+
+<img src="https://github.com/JaimeGoB/Clustering_101_Plantes_Dataset/blob/main/data/kplots.png" length = 1000 width="600"/>
 
 
