@@ -29,6 +29,10 @@ It is evident to see that normalization of datset is needed.
 
 <img src="https://github.com/JaimeGoB/Clustering_101_Plantes_Dataset/blob/main/data/dendogram_split.png" length = 1000 width="600"/>
 
+### Means of Predictors Hierarchical Clustering
+
+<img src="https://github.com/JaimeGoB/Clustering_101_Plantes_Dataset/blob/main/data/hmeans.png" length = 1000 width="600"/>
+
 #### Observations in 3 Different Clusters
 clusters_hierarchical
 | 1 | 2 | 3|
@@ -47,6 +51,10 @@ Using first two principle components we can see the plot for first and second pr
 
 
 # K-Means Clustering
+
+### Means of Predictors Hierarchical Clustering
+
+<img src="https://github.com/JaimeGoB/Clustering_101_Plantes_Dataset/blob/main/data/kmeans.png" length = 1000 width="600"/>
 
 #### Observations in 3 Different Clusters
 clusters_hierarchical
