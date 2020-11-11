@@ -15,6 +15,8 @@ It is evident to see that normalization of datset is needed.
 
 <img src="https://github.com/JaimeGoB/Clustering_101_Plantes_Dataset/blob/main/data/correlations.png" length = 1000 width="600"/>
 
+All three predictors are right skewed. 
+
 ### Box Plots
 
 <img src="https://github.com/JaimeGoB/Clustering_101_Plantes_Dataset/blob/main/data/boxplots.png" length = 1000 width="600"/>
@@ -33,11 +35,15 @@ It is evident to see that normalization of datset is needed.
 
 <img src="https://github.com/JaimeGoB/Clustering_101_Plantes_Dataset/blob/main/data/hmeans.png" length = 1000 width="600"/>
 
+Since cluster 3 there is only observations the means will be the values for observation 74.
+
 #### Observations in 3 Different Clusters
 clusters_hierarchical
 | 1 | 2 | 3|
 --- | ---| ---|
 38 | 62 | 1 
+
+Most observations are in cluster 2 followed by 1 and cluster 3 only has one observation.
 
 #### Visualizing 3 Different Clusters
 
@@ -56,11 +62,15 @@ Using first two principle components we can see the plot for first and second pr
 
 <img src="https://github.com/JaimeGoB/Clustering_101_Plantes_Dataset/blob/main/data/kmeans.png" length = 1000 width="600"/>
 
+Since clustering 3 does not have only one observation the means will change because there are 8 other observations in this cluster.
+
 #### Observations in 3 Different Clusters
 clusters_hierarchical
 | 1 | 2 | 3|
 --- | ---| ---|
 24 | 68 | 9
+
+There are more 8 observations in cluster 3 in K-Means using K = 3, compared to hierarchical that has only one observation.
 
 #### Visualizing 3 Different Clusters
 
